@@ -19,7 +19,7 @@ export class CantorFormComponent {
       nome: this.nome
     };
 
-    this.cantorAdicionado.emit(cantor);
+    this.cantorAdicionado.emit(cantor)
   }
 }
 
