@@ -17,7 +17,7 @@ export class CantorCardComponent {
   getEstilosCard() {
     return {
       'border-width': this.cantor.id + 'px',
-      backgroundColor: this.cantor.id % 2 === 0 ? 'lightblue' : 'lightgreen' 
+      backgroundColor: this.cantor.id % 2 === 0 ? 'lightblue' : 'lightgreen'
     }
   }
 
